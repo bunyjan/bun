@@ -1,0 +1,40 @@
+
+
+nuxhash is a [NiceHash](https://nicehash.com) cryptocurrency mining client for
+Linux. nuxhash consists of a headless daemon and an optional wxPython-based GUI.
+It is currently in beta.
+
+
+```
+nuxhashd initial setup
+Wallet address: 3DJBpNcgP3Pihw45p9544PK6TbbYeMcnk7
+Worker name: nuxhash
+Region (eu/usa/hk/jp/in/br): usa
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   617    0   617    0     0   1402      0 --:--:-- --:--:-- --:--:--  1402
+100 5618k  100 5618k    0     0  1283k      0  0:00:04  0:00:04 --:--:-- 1554k
+
+CUDA device: GeForce GTX 1060 6GB (GPU-452679f3-ba2b-2cfe-4aff-5a50c4a32efb)
+  excavator_equihash  .  287.41  H/s (warming up, 23 s)
+```
+
+## Dependencies
+
+* Python 3.6 or later
+* Nvidia's proprietary graphics driver for Linux, version 387.xx or later
+* curl
+
+Optionally, for the GUI interface:
+
+* wxPython 4 for Python 3
+
+## Quick Start
+
+Install the following dependencies (this list is for Ubuntu 18.04 LTS):
+
+* python3
+* python3-pip
+* curl
+* ocl-icd-libopencl1 [(to run CUDA apps)](https://askubuntu.com/questions/1032430/opencl-with-nvidia-390-on-ubunut-18-04)
