@@ -13,7 +13,7 @@ ALGORITHMS = [
     #'equihash',
     #'pascal',
     #'decred',
-    'kapow',
+    'kawpow',
     #'lbry',
     #'blake2s',
     #'daggerhashimoto',
